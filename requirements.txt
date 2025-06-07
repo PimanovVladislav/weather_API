@@ -1,0 +1,4 @@
+Django>=4.0
+djangorestframework>=3.13
+python-dotenv>=0.21
+requests>=2.28
