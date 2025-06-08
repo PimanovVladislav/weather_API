@@ -17,6 +17,13 @@
 - `GET /api/weather/current?city=CityName` — текущая температура и локальное время.
 - `GET /api/weather/forecast?city=CityName&date=dd.MM.yyyy` — прогноз температуры на указанную дату.
 - `POST /api/weather/forecast` — переопределение прогноза (сохраняется в базе).
+    Формат тела запроса
+- {
+  "city": "Berlin",
+  "date": "11.06.2025",
+  "min_temperature": 10.0,
+  "max_temperature": 18.5
+}
 
 ---
 
